@@ -1,30 +1,30 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Li-yu Patrick Lo",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "patty.lo@connect.polyu.hk",
+    "phone": "",
+    "url": "https://pattylo.github.io/",
+    "summary": "Aspire to become a genuine roboticist someday, currently a research student @ AIRO-lab of HKPolyU.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "GH034 PolyU",
+      "postalCode": "",
+      "city": "Kowloon",
+      "countryCode": "",
+      "region": "Hong Kong"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Patrick Li-yu LO",
+        "url": "https://www.linkedin.com/in/patrick-liyu-lo-700600185/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "Research Centre of Unmanned Autonomous Systems, The Hong Kong Polytechnic University",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",
@@ -52,23 +52,71 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "First Runner-up of UAV Competition @ 2023 IEEE ICUAS",
+      "date": "2023-06",
+      "awarder": "IEEE ICUAS",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Dean's Honours List",
+      "date": "2021-06",
+      "awarder": "The Hong Kong Polytechnic University",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "HKSAR Government Scholarship Fund",
+      "date": "2020-09",
+      "awarder": "HKSAR",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Wong Tit-shing Student Exchange Scholarship 2019/20",
+      "date": "2020-08",
+      "awarder": "Ir. Wong Tit-shing",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Dr. Y.K. Ching Memorial Scholarship",
+      "date": "2020-06",
+      "awarder": "Dr. Y.K. Ching",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "The Hong Kong Polytechnic University-APEC Entry Scholarship",
+      "date": "2017-09",
+      "awarder": "The Hong Kong Polytechnic University",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {"name":"ROS"},
+    {"name":"c++"},
+    {"name":"PyTorch"},
+    {"name":"Docker"},
+    {"name":"MatLab"}
+  ],
   "languages": [
     {
-      "language": "German",
+      "language": "Mandarin",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Hokkien",
+      "fluency": "Limited working proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary proficiency"
     }
   ],
   "interests": [],
