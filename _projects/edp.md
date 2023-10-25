@@ -2,13 +2,10 @@
 layout: page
 title: EDP-Planner
 description: An Autonomous Object Searching UAV System
-img: assets/img/3.jpg
+img: assets/img/edp.jpg
 importance: 2
 category: work
 ---
-
-### Abstract
-
 
 <div align="justify">
 This was also a project I did for my Bachelor Thesis, along with Summer Yiu and Bryant Tang,
@@ -23,7 +20,7 @@ Futhermore, by utilizing state-of-the-art <a href="https://github.com/AlexeyAB/d
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/edp2.jpg" title="Simulation in Gazebo." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

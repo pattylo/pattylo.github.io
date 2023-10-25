@@ -25,29 +25,81 @@
   "work": [
     {
       "name": "Research Centre of Unmanned Autonomous Systems, The Hong Kong Polytechnic University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "position": "Research Student",
+      "url": "https://www.polyu-airo-lab.com/",
+      "startDate": "2022-09",
+      "endDate": "now",
+      "summary": "Working on 'Relative State Estimation for Non-Inertial Control Framework'",
       "highlights": [
-        "Relativity"
+        "State Estimation",
+        "Sensor Fusion",
+        "Multi-Agent System",
+        "Non-Inertial Control Framework",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Hong Kong Center for Construction Robotics, The Hong Kong University of Science and Technology",
+      "position": "Research Assistant",
+      "url": "hkcrc.hk",
+      "startDate": "2021-06",
+      "endDate": "2022-07",
+      "summary": "Monitoring Sensors Development for Construction Sites",
+      "highlights": [
+        "Computer Vision",
+        "IoT-based Sensors",
+        "Semi-Automation Devices"
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "position": "Student Ambassodor",
+      "organization": "The Hong Kong Polytechnic University",
+      "summary": "School's Ambassodor during Official Ocassions",
+      "startDate": "2019-09",
+      "endDate": "2021-06"
+    },
+    {
+      "position": "Middle School Mentor",
+      "organization": "HeartFire Education Services",
+      "summary": "Educational Service in Rural China",
+      "startDate": "2019-12",
+      "endDate": "2019-12"
+    },
+    {
+      "position": "Teacher's Assistant",
+      "organization": "African Evangelistic Enterprise (Rwanda)/PolyU",
+      "summary": "Volunteering Work in Rwanda for Establishment of Solar Stations",
+      "startDate": "2019-06",
+      "endDate": "2019-06"
+    },
+    {
+      "position": "Student",
+      "organization": "RUPP Cambodia/PolyU",
+      "summary": "Volunteering Work in Cambodia for Establishment of E-learning Center",
+      "startDate": "2018-05",
+      "endDate": "2018-06"
+    }
+  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "institution": "The Hong Kong Polytechnic University",
+      "url": "https://www.polyu.edu.hk/",
+      "area": "Aeronautical and Aviation Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2017-09",
+      "endDate": "2021-08",
+      "score": "1st Honours attained with 3 Dean's list."
+    },
+    {
+      "institution": "The University of Queensland",
+      "url": "https://www.uq.edu.au/",
+      "area": "Aerospace Engineering",
+      "studyType": "Academic Exchange Program",
+      "startDate": "2020-02",
+      "endDate": "2020-07",
+      "score": "1st Honours attained with 3 Dean's list."
     }
   ],
   "awards": [
@@ -55,37 +107,43 @@
       "title": "First Runner-up of UAV Competition @ 2023 IEEE ICUAS",
       "date": "2023-06",
       "awarder": "IEEE ICUAS",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "It's not championship...but we'll get there someday."
+    },
+    {
+      "title": "PolyU Presidential Postgraduate Fellowship",
+      "date": "2022-09",
+      "awarder": "The Hong Kong Polytechnic University",
+      "summary": "This funds my research!"
     },
     {
       "title": "Dean's Honours List",
       "date": "2021-06",
       "awarder": "The Hong Kong Polytechnic University",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "High GPA lets you get this. Thanks Uni!"
     },
     {
-      "title": "HKSAR Government Scholarship Fund",
+      "title": "HKSAR Government Reaching Out Award Scholarship Fund",
       "date": "2020-09",
       "awarder": "HKSAR",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "I would like to thank Carrie Lam for giving me money to travel abroad..."
     },
     {
       "title": "Wong Tit-shing Student Exchange Scholarship 2019/20",
       "date": "2020-08",
       "awarder": "Ir. Wong Tit-shing",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Thanks Ir. Wong Tit-shing."
     },
     {
       "title": "Dr. Y.K. Ching Memorial Scholarship",
       "date": "2020-06",
       "awarder": "Dr. Y.K. Ching",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Thanks Dr. Y.K. Ching."
     },
     {
       "title": "The Hong Kong Polytechnic University-APEC Entry Scholarship",
       "date": "2017-09",
       "awarder": "The Hong Kong Polytechnic University",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "This helps me survive through 4 years of living expenses here in Hong Kong!"
     }
   ],
   "certificates": [],
