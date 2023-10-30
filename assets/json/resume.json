@@ -33,8 +33,6 @@
       "highlights": [
         "State Estimation",
         "Sensor Fusion",
-        "Multi-Agent System",
-        "Non-Inertial Control Framework",
         "Machine Learning"
       ]
     },
@@ -106,44 +104,37 @@
     {
       "title": "First Runner-up of UAV Competition @ 2023 IEEE ICUAS",
       "date": "2023-06",
-      "awarder": "IEEE ICUAS",
-      "summary": "It's not championship...but we'll get there someday."
+      "awarder": "IEEE ICUAS"
     },
     {
       "title": "PolyU Presidential Postgraduate Fellowship",
       "date": "2022-09",
-      "awarder": "The Hong Kong Polytechnic University",
-      "summary": "This funds my research!"
+      "awarder": "The Hong Kong Polytechnic University"
     },
     {
       "title": "Dean's Honours List",
       "date": "2021-06",
-      "awarder": "The Hong Kong Polytechnic University",
-      "summary": "High GPA lets you get this. Thanks Uni!"
+      "awarder": "The Hong Kong Polytechnic University"
     },
     {
       "title": "HKSAR Government Reaching Out Award Scholarship Fund",
       "date": "2020-09",
-      "awarder": "HKSAR",
-      "summary": "I would like to thank Carrie Lam for giving me money to travel abroad..."
+      "awarder": "HKSAR"
     },
     {
       "title": "Wong Tit-shing Student Exchange Scholarship 2019/20",
       "date": "2020-08",
-      "awarder": "Ir. Wong Tit-shing",
-      "summary": "Thanks Ir. Wong Tit-shing."
+      "awarder": "Ir. Wong Tit-shing"
     },
     {
       "title": "Dr. Y.K. Ching Memorial Scholarship",
       "date": "2020-06",
-      "awarder": "Dr. Y.K. Ching",
-      "summary": "Thanks Dr. Y.K. Ching."
+      "awarder": "Dr. Y.K. Ching"
     },
     {
       "title": "The Hong Kong Polytechnic University-APEC Entry Scholarship",
       "date": "2017-09",
-      "awarder": "The Hong Kong Polytechnic University",
-      "summary": "This helps me survive through 4 years of living expenses here in Hong Kong!"
+      "awarder": "The Hong Kong Polytechnic University"
     }
   ],
   "certificates": [],
