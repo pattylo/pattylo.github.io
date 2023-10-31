@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: It's still growing...? Hopefully?. 
+description: 
 nav: true
 nav_order: 1
 ---
