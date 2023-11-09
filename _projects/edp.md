@@ -3,7 +3,7 @@ layout: page
 title: EDP-Planner
 description: An Autonomous Object Searching UAV System
 img: assets/img/edp.jpg
-importance: 2
+importance: 5
 category: work
 ---
 

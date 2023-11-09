@@ -3,7 +3,7 @@ layout: page
 title: AUTO 
 description: AUTO - an "A"utonomous "U"av that "T"racks "O"bject
 img: assets/img/auto.jpg
-importance: 1
+importance: 2
 redirect:
 category: work
 related_publications: lo2021dynamic

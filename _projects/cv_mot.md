@@ -1,9 +1,9 @@
 ---
 layout: page
 title: SORT It Out
-description: Implementation of SORT to Track Multiple Objects~
+description: Implementation of SORT to Track Multiple Objects
 img: assets/img/mot.jpg
-importance: 3
+importance: 4
 category: work
 ---
 
