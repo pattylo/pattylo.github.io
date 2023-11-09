@@ -28,7 +28,7 @@ Out of curiosity, I also compared LIO with GPS signal near buildings. As the vid
 
 <div align="justify">
 <video width="800" height="600" controls>
-  <source src="/assets/video/lidar_gps.mp4" type="video/mp4">
+  <source src="/assets/video/lidar_gps_compare.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
