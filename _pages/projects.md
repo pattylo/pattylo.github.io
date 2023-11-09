@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Just some projects of mine lah.
+description: My past, present, and future projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [current research, work, fun]
 horizontal: false
 ---
 

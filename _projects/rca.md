@@ -8,7 +8,7 @@ category: fun
 ---
 
 <div align="justify">
-This was a project when I tried to make 3 UAV avoid each other in Gazebo simulation. The scientific term for "avoiding each other" is reciprocal collision avoidance. It was a naive design, tho I do think it could work quite could in real-world. Basically, by utilizing minimum snap trajecoties and the concept of 3D roundabouts, I was able to let the multi-agent system to fly without bumping into each other. 
+This was a project when I tried to make 3 UAV avoid each other in Gazebo simulation. The scientific term for "avoiding each other" is reciprocal collision avoidance. It was a naive design, but I do think it could work quite well in real-world. Basically, by utilizing minimum snap trajecoties and the concept of 3D roundabouts, I was able to let the multi-agent system to fly without bumping into each other. 
 </div>
 <br />
 <div class="row">

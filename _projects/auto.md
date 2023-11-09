@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AUTO 
-description: an "A"utonomous "U"av that "T"racks "O"bject
+description: AUTO - an "A"utonomous "U"av that "T"racks "O"bject
 img: assets/img/auto.jpg
 importance: 1
 redirect:

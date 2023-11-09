@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I graduated from The Hong Kong Polytechnic University with 1st Honors attained with 3 Dean's List. Yeahpee~ :smile: :smile: :smile: :smile:
+I graduated from The Hong Kong Polytechnic University with **1st Honours** attained with **3 Dean's List**. :smile: :smile: :smile: :smile:

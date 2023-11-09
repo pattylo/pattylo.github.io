@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm glad to announce that our Bachelor thesis was successfully published in Sensors Journal!
+I'm glad to announce that our Bachelor thesis was successfully published in **Sensors** Journal!
