@@ -17,7 +17,9 @@ This research addresses the problem of a quadrotor UAV landing on a ground vehic
 ### [GitHub](https://github.com/HKPolyU-UAV/ALAN)
 <br />
 ### Video
+<div align="justify">
 <a href="https://www.youtube.com/watch?v=7wiCh46MQmc
 " target="_blank"><img src="https://img.youtube.com/vi/7wiCh46MQmc/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="533" height="400" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="800" height="600" border="10" /></a>
+</div>
 

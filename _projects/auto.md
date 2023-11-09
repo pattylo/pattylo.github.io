@@ -18,7 +18,9 @@ It is a project based upon the state-of-the-art <a href="https://github.com/Alex
 ### [GitHub](https://github.com/HKPolyU-UAV/AUTO)
 <br />
 ### Video
+<div align="justify">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tY16YnZQoB4
 " target="_blank"><img src="http://img.youtube.com/vi/tY16YnZQoB4/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="533" height="400" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="800" height="600" border="10" /></a>
+</div>
 
