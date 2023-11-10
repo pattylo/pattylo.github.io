@@ -7,7 +7,6 @@ importance: 3
 category: work
 ---
 
-### Abstract
 <div align="justify">
 This was a project when I was doing my coursework on convex optimization, where we were asked to implement a solver to solve your research application. Therefore, in that project, I implemented an infeasible start Newton method with equality constraints to solve an optimal trajectory for quadrotor manuever. 
 </div>

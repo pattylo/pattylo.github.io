@@ -16,6 +16,7 @@ My participation at 2023 IEEE ICUAS Competition where we won first runner-up! Be
 <br/>
 A team from the Department of Aeronautical and Aviation Engineering took home the first-runner up prize in the Unmanned Aerial Vehicle (UAV) Competition at the 2023 International Conference on Unmanned Aircraft Systems (ICUAS’23) held in Warsaw, Poland.
 <br />
+<br />
 Led by Prof. Chih-yung Wen, Chair Professor of Aeronautical Engineering and Head of the Department of Aeronautical and Aviation Engineering, the team, comprising members <strong>Li-yu Lo</strong>, Bailun Jiang, Wenyu Yang and Kwai-wa Tse, competed against 38 other teams from 20 regions.
 <br />
 <br/>

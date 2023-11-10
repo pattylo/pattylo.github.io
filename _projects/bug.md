@@ -16,11 +16,16 @@ will try to reach the destination via following the "wall" of obstacles.
 It is a rather simple project, yet this is the start of my roboticist career!
 Feel free to check out the code on github!
 </div>
+
 <br />
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bug_algo.jpg" title="Bug algorithm." class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <br />
 ### [GitHub](https://github.com/pattylo/Bug-Algo)
+
+</div>
+### Video
+<div align="justify">
+<a href="https://www.youtube.com/watch?v=Nv-4wWcx9n0
+" target="_blank"><img src="https://img.youtube.com/vi/Nv-4wWcx9n0/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="800" height="600" border="10" /></a>
+</div>
