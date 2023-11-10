@@ -20,7 +20,12 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <div align="justify">
-I am currently a researh student at Autonomous & Intelligent Robotics Lab (<a href="https://github.com/HKPolyU-UAV">AIRO-Lab</a>) at Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University. My supervisors are <a href="https://github.com/HKPolyU-UAV">Prof. Chih-yung Wen</a> and <a href="https://github.com/HKPolyU-UAV">Dr. Boyang Li</a>.
+Check out my latest <a href="/assets/pdf/cv.pdf">CV</a> here!
+</div>
+<br />
+
+<div align="justify">
+I am currently a researh student at Autonomous & Intelligent Robotics Lab (<a href="https://www.polyu-airo-lab.com/">AIRO-Lab</a>) at Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University. My supervisors are <a href="https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/">Prof. Chih-yung Wen</a> and <a href="https://www.newcastle.edu.au/profile/boyang-li">Dr. Boyang Li</a>.
 We are also with Research Centre of Unmanned Autonomous Systems (<a href="https://www.polyu.edu.hk/aae/research/research-centres-and-groups/research-centre-for-unmanned-autonomous-systems/">RCUAS</a>). Prior to my post-graduate studies, I was a research assistant at Hong Kong Center for Construction Robotics (<a href="https://www.hkcrc.hk/">HKCRC</a>), which is a research insitution under The Hong Kong University of Science and Technology led by <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li">Prof. Zexiang Li</a>.
 </div>
 <br />
