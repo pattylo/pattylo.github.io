@@ -22,7 +22,7 @@ Feel free to check out the code on github!
 <br />
 ### [GitHub](https://github.com/pattylo/Bug-Algo)
 
-</div>
+
 ### Video
 <div align="justify">
 <a href="https://www.youtube.com/watch?v=Nv-4wWcx9n0
