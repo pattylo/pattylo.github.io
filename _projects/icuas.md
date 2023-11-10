@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UAV-Contest
+title: UAV-Challenge
 description: First runner-up @ UAV Comp. of IEEE ICUAS
 img: assets/img/icuas_cover.jpg
 importance: 1
@@ -11,7 +11,7 @@ related_publications:
 
 
 <div align="justify">
-My participation at 2023 IEEE ICUAS Competition where we won first runner-up! Below is an article excepted from <a href="https://www.polyu.edu.hk/publications/pulse-polyu/issue/202308/achievements/aae-team-wins-first-runner-up-prize-at-icuas-23-uav-competition">here</a>:
+My participation at 2023 IEEE ICUAS Challenge where we won first runner-up! Below is an article excepted from <a href="https://www.polyu.edu.hk/publications/pulse-polyu/issue/202308/achievements/aae-team-wins-first-runner-up-prize-at-icuas-23-uav-competition">here</a>:
 <br/>
 <br/>
 A team from the Department of Aeronautical and Aviation Engineering took home the first-runner up prize in the Unmanned Aerial Vehicle (UAV) Competition at the 2023 International Conference on Unmanned Aircraft Systems (ICUAS’23) held in Warsaw, Poland.
