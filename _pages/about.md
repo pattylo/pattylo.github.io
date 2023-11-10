@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-
+<br />
 <div align="justify">
 Check out my latest <a href="/assets/pdf/cv.pdf">CV</a> here!
 </div>
