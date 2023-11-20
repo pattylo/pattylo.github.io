@@ -3,7 +3,7 @@ layout: page
 title: MPC
 description: A MPC Controller for Quadrotor UAV
 img: assets/img/mpc_project.jpg
-importance: 2
+importance: 1
 category: work
 related_publications: jiang2022neural
 ---
