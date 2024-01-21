@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 <br />
 <div align="justify">
-Check out my latest <a href="/assets/pdf/cv.pdf">CV</a> here!
+TL;DR: M.Phil. Student in Robotics who likes to code! Or - Check out my latest <a href="/assets/pdf/cv.pdf">CV</a> here!
 </div>
 <br />
 
