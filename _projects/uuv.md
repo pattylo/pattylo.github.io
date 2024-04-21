@@ -6,7 +6,7 @@ img: assets/img/uuv.png
 importance: 1
 redirect:
 category: current research
-related_publications:
+related_publications: lo2023adaptive
 ---
 
 
