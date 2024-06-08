@@ -33,7 +33,7 @@ We are also with Research Centre of Unmanned Autonomous Systems (<a href="https:
 
 <div align="justify">
 I'll be graduating as <strong>Master of Philosophy in September of 2024</strong>, and
-with working thesis title, "Relative State Estimation for Non-inertial Control System", whose research content mainly lies within the intersection of robot state estimation, control systems, and control theory. This project is driven by the necessity to remotely control a UAV in non-inertial control frames and multi-agent localization redundacies. To determine the robot's state, we solely rely on on-ground cameras and transmitted control signals, while employing iterated extended Kalman filtering and extended state observer. Drop me a message if you want to discourse with me on my work! 
+with working thesis title, "On Improving the Adaptivity of Controllers and Estimators for Mobile Robots in Challenging Operational Conditions", whose research content mainly lies within the intersection of robot state estimation, control systems, and control theory. This project is driven by the necessity to remotely control a UAV in non-inertial control frames and multi-agent localization redundacies. To determine the robot's state, we solely rely on on-ground cameras and transmitted control signals, while employing iterated extended Kalman filtering and extended state observer. Drop me a message if you want to discourse with me on my work! 
 </div>
 <br />
 <br />
