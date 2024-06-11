@@ -67,6 +67,8 @@
                 <a class="nav-link" href="https://github.com/pattylo/learning_jungle" target="_blank">My Learning</a>
               </li>
 
+              
+
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
@@ -99,6 +101,11 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <li class="nav-item">
+                <a class="nav-link" href="/assets/pdf/cv.pdf" target="_blank">CV</a>
+              </li>
+              
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
