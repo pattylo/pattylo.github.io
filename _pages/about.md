@@ -30,10 +30,14 @@ We are also with Research Centre of Unmanned Autonomous Systems (<a href="https:
 </div>
 <br />
 
-
 <div align="justify">
-I'll be graduating as <strong>Master of Philosophy in September of 2024</strong>, and
-with working thesis title, "On Improving the Adaptivity of Controllers and Estimators for Mobile Robots in Challenging Operational Conditions", whose research content mainly lies within the intersection of robot state estimation, control systems, and control theory. This project is driven by the necessity to remotely control a UAV in non-inertial control frames and multi-agent localization redundacies. To determine the robot's state, we solely rely on on-ground cameras and transmitted control signals, while employing iterated extended Kalman filtering and extended state observer. Drop me a message if you want to discourse with me on my work! 
+From a high-end perspective, I am interested in applying optimal control theories to estimators and controllers of robotic systems while studying and exploiting the underlying dynamics of robots to design algorithms. Additionally, I have a strong preference for dealing with field robotics-driven problems, where systems are subject to noises, disturbances, and other uncertainties.
 </div>
 <br />
+
+<div align="justify">
+I'll be graduating as <strong>Master of Philosophy in September of 2024</strong>, and with working thesis title, "On Improving the Adaptivity of Controllers and Estimators for Mobile Robots in Challenging Operational Conditions", whose research content mainly lies within the intersection of extended state observers and optimal control theory. This project is driven by the necessity to improve the applicability of controllers and estimators in field robotics scenarios via improving the adaptivity and robustness of the systems. Drop me a message if you want to discourse with me on my work! 
+</div>
+<br />
+
 <br />
