@@ -1,14 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: My Learning
+description: This repo serves as my learning journal throughout the years. Usually, I update it once per semester. I don't think people are particularly interested, but below is the table of content to guide you (mostly me lah) through the jungle; they are mostly related to robotics and autonomous systems.
 nav: true
 nav_order: 0
 ---
-
-# My Study Notes
-This repo serves as my learning journal throughout the years. Usually, I update it once per semester. I don't think people are particularly interested, but below is the table of content to guide you (mostly me lah) through the jungle; they are mostly related to robotics and autonomous systems.
 
 ## A. Control
 ### Advance Topics
@@ -59,6 +56,7 @@ This repo serves as my learning journal throughout the years. Usually, I update 
   
 ### Linear Algebra
   - [Matrices](/notes_pdf/Math/Linear_algebra/Matrcies_manipulation.pdf)
+
 ### General Engineering Mathematics
   - [UW ME564](/notes_pdf/Math/ME564/)
 
@@ -68,5 +66,6 @@ This repo serves as my learning journal throughout the years. Usually, I update 
   - [HKUST COMP5212 Course Notes](/notes_pdf/Machine_Learning/COMP5212/Final.pdf)
   - [HKUST COMP5212 HW Repo](https://github.com/pattylo/COMP5212_Machine_Learning)
   - [HKUST COMP5212 Project Repo](https://github.com/pattylo/ledvo)
+
 ### Deep Learning
   - [Stanford CS321n](/notes_pdf/Machine_Learning/cs231n/)
