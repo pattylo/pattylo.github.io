@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /learning/
 title: My Learning
 description: This repo serves as my learning journal throughout the years. Usually, I update it once per semester. I don't think people are particularly interested, but below is the table of content to guide you (mostly me lah) through the jungle; they are mostly related to robotics and autonomous systems.
 nav: true
@@ -20,7 +20,7 @@ nav_order: 0
 - [Floated Systems](/notes_pdf/Control/Dynamics/Floating_base_sys.pdf)
 
 ### Linear System
-- [Control Bootcamp](/notes_pdf/Control/Linear-system/notes_pdf/Control_Bootcamp.pdf)
+- [Control Bootcamp](/notes_pdf/Control/Linear-system/Control_Bootcamp.pdf)
 
 ### Trajectory Optimization
 - [Bezier Curve](/notes_pdf/Control/Traj-Opt/Minimum_snap_and_B%C3%A8zier.pdf)
@@ -58,7 +58,7 @@ nav_order: 0
   - [Matrices](/notes_pdf/Math/Linear_algebra/Matrcies_manipulation.pdf)
 
 ### General Engineering Mathematics
-  - [UW ME564](/notes_pdf/Math/ME564/)
+  - [UW ME564](/learningUW/)
 
 ## D. Machine Learning
 ### Machine Learning
@@ -68,4 +68,4 @@ nav_order: 0
   - [HKUST COMP5212 Project Repo](https://github.com/pattylo/ledvo)
 
 ### Deep Learning
-  - [Stanford CS321n](/notes_pdf/Machine_Learning/cs231n/)
+  - [Stanford CS321n](/learning_cs231/)
