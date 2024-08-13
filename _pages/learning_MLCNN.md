@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /learning_cs231/
-title: Notes from UW ME564
+title: Notes from Stanford CS231n
 description: 
 nav: false
 nav_order: 0
