@@ -7,7 +7,7 @@ nav: true
 nav_order: 0
 ---
 
-## A. Control
+# A. Control
 ### Advance Topics
 - [MIT 6.8210 Underactuated Robotics](/notes_pdf/Control/Advance/Underactuated_robotics.pdf)
 - [Nonlinear Control Theory](/notes_pdf/Control/Advance/Nonlinear_control.pdf)
@@ -25,7 +25,7 @@ nav_order: 0
 ### Trajectory Optimization
 - [Bezier Curve](/notes_pdf/Control/Traj-Opt/Minimum_snap_and_B%C3%A8zier.pdf)
 
-## B. Sensing
+# B. Sensing
 ### Sensors
 - [PNP](/notes_pdf/Sensing/CV/epnp_icpsvd_notes.pdf)
 - [GPS](/notes_pdf/Sensing/GPS/AAE6102.pdf)
@@ -45,7 +45,7 @@ nav_order: 0
 - [Certifiable Estimation](/notes_pdf/Sensing/Opti-based/Certifiable.pdf)
 
 
-## C. Math
+# C. Math
 ### Optimization 
 - Convex Optimization
   - [HKUST ELEC5470 Course Notes](/notes_pdf/Math/Optimization/ELEC5470.pdf)
@@ -60,7 +60,7 @@ nav_order: 0
 ### General Engineering Mathematics
   - [UW ME564](/learningUW/)
 
-## D. Machine Learning
+# D. Machine Learning
 ### Machine Learning
 - HKUST COMP5212 Course (Linear Model, Theory of Generalization, NNs, Transformers, Tree-based Models, Adversarial Learning, Reinforcement Learning)
   - [HKUST COMP5212 Course Notes](/notes_pdf/Machine_Learning/COMP5212/Final.pdf)
