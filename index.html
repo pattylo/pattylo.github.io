@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Li-Yu Lo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Optima", "Segoe UI", "Candara", sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Centered Container Styling */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            max-height: 90vh;
+            background-color: #f4f4f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .sidebar img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #444;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+        /* Main Content Styling */
+        .content {
+            padding: 40px;
+            flex-grow: 1;
+            color: #333;
+            overflow-y: auto;
+        }
+
+        .content h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .content h3 {
+            font-size: 1.0em;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.0em;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        .icon-container {
+            display: flex;
+            gap: 20px; /* Adjust spacing between the icons */
+        }
+
+        .icon-container a {
+            text-decoration: none;
+        }
+
+        .icon-container i {
+            font-size: 2rem; /* Adjust icon size */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Centered Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="asset/me.jpg" alt="Your Image">
+            <h2>Patrick Li-Yu Lo</h2>
+            <div class="icon-container">
+                <!-- GitHub Icon -->
+                <a href="https://github.com/pattylo" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/patrick-liyu-lo-700600185/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            
+                <!-- Google Scholar Icon -->
+                <a href="https://scholar.google.com/citations?user=your-scholar-id&user=RwZlE9AAAAAJ" target="_blank">
+                    <i class="fab fa-google"></i>
+                </a>
+            </div>
+
+            <div class="icon-container">
+                <a href="#project">Projects</a>
+                <a href="#publication">Publication</a>
+            </div>
+            
+            <a href="./pdfs/cv.pdf">CV/Resume</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h1>About Me</h1>
+            <p>
+                I am an M.Phil. candidate in robotics at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, where I am currently working on adaptive control with learning methods for mobile robots (UAV/UGV/UUV). 
+                </br></br>    
+                My supervisors are <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/ir-prof-wen-chih-yung/" target="_blank">Prof. Chih-yung Wen</a> and <a href="https://www.newcastle.edu.au/profile/boyang-li" target="_blank"> Dr. Boyang Li</a>; we are also with Research Centre of Unmanned Autonomous Systems (<a href="https://www.polyu.edu.hk/aae/research/research-centres-and-groups/research-centre-for-unmanned-autonomous-systems/" target="_blank">RCUAS</a>). Prior to my post-graduate studies, I was a research assistant at Hong Kong Center for Construction Robotics (<a href="https://www.hkcrc.hk/" target="_blank">HKCRC</a>), which is a research insitution under The Hong Kong University of Science and Technology led by <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li" target="_blank">Prof. Zexiang Li</a>.
+                </br></br>    
+            
+                From a high-end perspective, I am interested in applying optimal control theories to estimators and controllers of robotic systems while studying complex dynamics using data-driven methods. Additionally, I have a strong preference for dealing with field robotics-driven problems, where systems are subject to noises, disturbances, and other uncertainties.
+            </p>
+                </br></br>    
+
+            <h1 id="project">Project Highlights</h1>
+            <p>
+                <h3>a) Improving Adaptability of Koopman Operators for Legged Robots</h3>
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/quadruped.gif"  style="width: 36%;"/>
+                    On-going project developing Koopman operator-based controller for legged robots via hyperparameter optimization with RL. Algorithms/Methods (not finalized) include extended dynamic mode decomposition (EDMD) for Koopman observables, regression for Koopman operator, Proximal policy optimization (PPO) for controller adaptive hyperparameter inference.
+                </div>
+                </br></br>   
+                
+                <h3>b) A Bootcamp for Legged Robotics via Biped and Quadruped Simulation (<a href="https://github.com/Dynamics-Learning-Workshop/Legged-Robots-Bootcamp">Code</a>)</h3>
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/biped.gif"  style="width: 36%;"/>
+                    Self implementation of a biped simulator with impedance control and a gait controller for quadruped with Gazebo ROS. Algorithms/Methods include Euler-Lagrange modelling, RK Dormand–Prince method, fixed point searching on Poincare maps, forward and inverse kinematics, trajectory optimization with polynomials, feedback linearization, quadratic programming, and cycloid trajectories.
+                </div>                
+                </br></br>   
+
+                <h3>c) Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite (<a href="https://github.com/HKPolyU-UAV/ALAN">Code</a> <a href="./pdfs/tim.pdf">PDF</a>)</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/alan.gif"  style="width: 36%;"/>
+                    Researcher on an autonomous landing system without UAV equipping vision sensors. Algorithms/Methods include SE(3) relative estimation, iterated extended Kalman filter, quadrotor dynamic modelling, minimum jerk trajectory optimization, Bezier curves, and non-inertial PID-feedforward outer-loop controller.
+                </div>          
+                </br></br>    
+
+                <h3>d) (Participation) Fixed-Time Adaptive Consensus Control for Multi-Quadrotor Subject to External Disturbances Via Deep Reinforcement Learning</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/swarm.gif"  style="width: 36%;"/>
+                    Assisting on the research project for adaptive control for formation control of UAV-swarm. Algorithms/Methods include sliding-mode control on graph topology, nonlinear disturbance observer, RL hyperparameter tuning, quadrotor dynamic modelling, Lyapunov stability analysis, UAV-swarm physical experiments with communication.
+                </div>          
+                </br></br>    
+
+                <h3>e) An Adaptive Model Predictive Control for Unmanned Underwater Vehicles subject to External Disturbances and Measurement Noise (<a href="https://github.com/HKPolyU-UAV/bluerov2/tree/eskf_obs2">Code</a> <a href="./pdfs/uuv.pdf">PDF</a>)</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/uuv.gif"  style="width: 36%;"/>
+                    Developed an adaptive MPC for UUV using error-state extended state observer. Algorithms/Methods include lump disturbance observation, error-state space tracking and estimation, Lyapunov stability analysis, and nonlinear MPC.
+                </div>   
+                </br></br>    
+                
+                <h3>f) Toy Convex Solver (<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/qpsolver.m">Code</a> <a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/project_report.pdf">PDF</a>)</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/convex.jpg"  style="width: 36%;"/>
+                    Self-implemented a convex solver for equality-contrained minimum snap trajectory. Algorithms/Methods include infeasible start Newton's method and convergence analysis.
+                </div>   
+                </br></br>   
+
+                <h3>g) Autonomous Dynamic Object Tracking/Following UAV (<a href="https://github.com/HKPolyU-UAV/AUTO">Code</a> <a href="./pdfs/auto.pdf">PDF</a>)</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/auto.gif"  style="width: 36%;"/>
+                    My honour's project during my Bachelor studies, where I design an UAV that can track and follow dynamic objects. Algorithms/Methods include DNN (YOLO) implementation and training, linear Kalman filter, and visual-servoing with PID.
+                </div>   
+                </br></br>  
+                
+                <h3>h) Bug Planner Implementation for Nonholonomic Planner Robots (<a href="https://github.com/pattylo/Bug-Algo">Code</a>)</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/bug.gif"  style="width: 36%;"/>
+                    This is an implementation for nonholonomic planner robots during my undergraduate studies. Algorithms/Methods include 2D lider scan data processing, 2D wheel robot dynamic modelling, Bug algorithm for path planning, and 2D wheel robot PID.
+                </div>   
+                </br></br>  
+            </p>
+
+            <h1 id="publication">Publication</h1>
+            <ol>
+                <li><b>L.-Y. Lo</b>, B. Li, C.-Y. Wen, and C.-W. Chang, “Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite,” <b>IEEE Transactions on Instrumentation and Measurement (TIM)</b>, vol. 73, 2024.</li>
+
+                <li>L.-Y. Lo, Y. Hu, B. Li, C.-Y. Wen, and Y. Yang, “An adaptive model predictive control for unmanned under-water vehicles subject to external disturbances and measurement noise,” in 2024 14th <b>Asian Control Conference (ASCC)</b>. IEEE, 2024, pp. 01–07. </li>
+
+                <li>Y. Yang, K. Liu, L.-Y. Lo, T. Huang, Y. Fu, and C.-Y. Wen, “Fixed-time adaptive consensus control for multi-quadrotor subject to external disturbances via deep reinforcement learning,” submitted to <b>IEEE Transactions on Automation and Science Engineering (TASE)</b>, 2024.</li>
+
+                <li>W. Yang, Z. Tan, Y. Xue, <b>L.-Y. Lo</b>, K. Liu, and C.-Y. Wen. “Hierarchical 3D scene graph based metric semantic slam for object mapping and counting,” submitted to <b>IEEE Transactions on Circuits and Systems II: Express Briefs</b>, 2024.</li>
+
+                <li><b>L.-Y. Lo</b>, B. Li, C.-Y. Wen, and C.-W. Chang, “Landing a quadrotor on a ground vehicle without exteroceptive airborne sensors: A non-robocentric framework and implementation,” in 2023 <b>IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)</b>. IEEE, 2023, pp. 6080–6087.</li>
+
+                <li><b>L.-Y. Lo</b>, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, “Dynamic object tracking on autonomous uav system for surveillance applications,” <b>Sensors</b>, vol. 21, no. 23, p. 7888, 2021. Editor’s Choice Article. </li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
