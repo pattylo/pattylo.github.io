@@ -43,10 +43,17 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
+            /* position: fixed;  */
+            /* top: 0; */
+            /* left: 0; */
+            /* height: 100vh; */
+            z-index: 10;
         }
 
         .sidebar img {
-            width: 150px;
+            width: 150px; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
             margin-bottom: 20px;
         }
 
@@ -54,6 +61,7 @@
             font-size: 1.5em;
             color: #333;
             margin-bottom: 10px;
+            margin-right: 10px;
         }
 
         .sidebar a {
@@ -69,6 +77,7 @@
         .sidebar a:hover {
             background-color: #555;
         }
+
 
         /* Main Content Styling */
         .content {
@@ -96,6 +105,13 @@
             text-align: justify;
         }
 
+        .content img {
+            width: 36%; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
         .icon-container {
             display: flex;
             gap: 20px; /* Adjust spacing between the icons */
@@ -108,12 +124,101 @@
         .icon-container i {
             font-size: 2rem; /* Adjust icon size */
         }
+
+        
+        ol {
+            text-align: justify;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        ol li::marker {
+            font-weight: bold;
+        }
+
+        ol li a {
+            word-break: break-all; /* Prevents long URLs from overflowing */
+        }
+
+        .icon-container {
+            display: flex;
+            text-align: justify;
+            gap: 10px;
+        }
+
+        .icon-container p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                margin-left: 0;
+                margin-top: 100px; /* Space for overhead bar */
+            }
+
+            .icon-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .icon-container img {
+                max-width: 100%; /* Ensure the image does not exceed its container */
+                width: 80%; 
+                height: auto;
+                object-fit: contain;
+                margin-bottom: 10px;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                flex-direction: row;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .sidebar img {
+                width: 100px; /* Adjust as needed */
+                height: auto; 
+                object-fit: contain;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+
+            .sidebar h2 {
+                font-size: 1.8em;
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+
+            .sidebar a {
+                margin: 2px;
+                padding: 4px 6px;
+                font-size: 0.9em;
+            }
+
+            .sidebar .icon-container i {
+                font-size: 10px; 
+            }
+
+            .sidebar .icon-container a {
+                font-size: 10px; 
+            }
+        } 
+
     </style>
 </head>
 <body>
 
     <!-- Centered Container -->
     <div class="container">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <!-- Sidebar -->
         <div class="sidebar">
             <img src="asset/me.jpg" alt="Your Image">
@@ -145,8 +250,6 @@
                 <a href="https://github.com/pattylo/learning_jungle" target="_blank">Learning</a>
             </div>
             
-            
-
             <!-- https://github.com/pattylo/learning_jungle -->
         </div>
 
@@ -169,7 +272,7 @@
                 <h3>a) Improving Adaptability of Koopman Operators for Underactuated Robots</h3>
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/quadruped.gif" style="width: 36%;" />
+                    <img src="./asset/quadruped.gif" />
                     Ongoing project focused on developing a Koopman operator-based controller for underactuated robots (e.g., quadrotors and quadrupeds) through hyperparameter optimization using reinforcement learning (RL). The algorithms and methods (subject to finalization) include Extended Dynamic Mode Decomposition (EDMD) for Koopman observables, regression for the Koopman operator, and Proximal Policy Optimization (PPO) for adaptive hyperparameter inference in the controller.
                 </div>                
                 </br></br>   
@@ -177,7 +280,7 @@
                 <h3>b) A Bootcamp for Legged Robotics via Biped and Quadruped Simulation (<a href="https://github.com/Dynamics-Learning-Workshop/Legged-Robots-Bootcamp" target="_blank">Code</a>)</h3>
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/biped.gif" style="width: 36%;" />
+                    <img src="./asset/biped.gif" />
                     Self-implemented biped simulator with impedance control and a gait controller for a quadruped using Gazebo ROS. Algorithms and methods employed include Euler-Lagrange modeling, the RK Dormand–Prince method, fixed-point searching on Poincaré maps, forward and inverse kinematics, trajectory optimization with polynomials, feedback linearization, quadratic programming, and cycloid trajectories.
                 </div>                             
                 </br></br>   
@@ -185,7 +288,7 @@
                 <h3>c) Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite (<a href="https://github.com/HKPolyU-UAV/ALAN" target="_blank">Code</a> <a href="./pdfs/tim.pdf" target="_blank">PDF</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/alan.gif" style="width: 36%;" />
+                    <img src="./asset/alan.gif"/>
                     Conducted research on an autonomous landing system for UAVs without onboard vision sensors. Algorithms and methods utilized include SE(3) relative estimation, the iterated extended Kalman filter, quadrotor dynamic modeling, minimum-jerk trajectory optimization, Bézier curves, and a non-inertial PID-feedforward outer-loop controller.
                 </div>                       
                 </br></br>    
@@ -194,7 +297,7 @@
                 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/swarm.gif" style="width: 36%;" />
+                    <img src="./asset/swarm.gif" />
                     Contributed to a research project on adaptive control for formation control of UAV swarms. Algorithms and methods employed include sliding-mode control on graph topology, nonlinear disturbance observers, reinforcement learning (RL) for hyperparameter tuning, quadrotor dynamic modeling, Lyapunov stability analysis, and physical experiments with UAV swarms involving communication.
                 </div>                        
                 </br></br>    
@@ -202,7 +305,7 @@
                 <h3>e) An Adaptive Model Predictive Control for Unmanned Underwater Vehicles subject to External Disturbances and Measurement Noise (<a href="https://github.com/HKPolyU-UAV/bluerov2/tree/eskf_obs2" target="_blank">Code</a> <a href="./pdfs/uuv.pdf" target="_blank">PDF</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/uuv.gif" style="width: 36%;" />
+                    <img src="./asset/uuv.gif" />
                     Developed an adaptive model predictive controller (MPC) for an unmanned underwater vehicle (UUV) using an error-state extended state observer. Algorithms and methods employed include lumped disturbance observation, error-state space tracking and estimation, Lyapunov stability analysis, and nonlinear MPC.
                 </div>                
                 </br></br>    
@@ -210,7 +313,7 @@
                 <h3>f) Toy Convex Solver (<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/qpsolver.m" target="_blank">Code</a> <a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/project_report.pdf" target="_blank">PDF</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/convex.jpg" style="width: 36%;" />
+                    <img src="./asset/convex.jpg" />
                     Self-implemented a convex solver for equality-constrained minimum-snap trajectory optimization. Algorithms and methods employed include the infeasible start Newton's method and convergence analysis.
                 </div>                
                 </br></br>   
@@ -218,7 +321,7 @@
                 <h3>g) An Autonomous UGV with LOAM (<a href="https://github.com/HKPolyU-UAV/ALAN_SIM" target="_blank">Code-SITL</a>  <a href="https://github.com/HKPolyU-UAV/scout_ros" target="_blank">Code-Firmware</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/ugv.gif" style="width: 36%;" />
+                    <img src="./asset/ugv.gif"/>
                     This implementation showcases an autonomous UGV that employs an open-source LOAM algorithm and a custom-developed nonholonomic car controller utilizing PID-feedforward control. The system was demonstrated on the AgileX Mini platform. Additionally, the corresponding Gazebo SITL simulation environment, including the controller, is maintained and open-sourced.
                 </div>                 
                 </br></br>  
@@ -226,7 +329,7 @@
                 <h3>h) Bug Planner Implementation for Nonholonomic Planner Robots (<a href="https://github.com/pattylo/Bug-Algo" target="_blank">Code</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/bug.gif" style="width: 36%;" />
+                    <img src="./asset/bug.gif"/>
                     This is an implementation of a nonholonomic path planner for robots during my undergraduate studies. Algorithms and methods employed include 2D lidar scan data processing, 2D wheel robot dynamic modeling, the Bug algorithm for path planning, and 2D wheel robot PID control.
                 </div>                 
                 </br></br>  
@@ -234,7 +337,7 @@
                 <h3>i) Autonomous Dynamic Object Tracking/Following UAV (<a href="https://github.com/HKPolyU-UAV/AUTO" target="_blank">Code</a> <a href="./pdfs/auto.pdf" target="_blank">PDF</a>)</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
-                    <img src="./asset/auto.gif" style="width: 36%;" />
+                    <img src="./asset/auto.gif"/>
                     My honours project during my Bachelor's studies, where I designed a UAV capable of tracking and following dynamic objects. Algorithms and methods employed include DNN (YOLO) implementation and training, linear Kalman filter, and visual servoing with PID.
                 </div>                 
                 </br></br>  
@@ -254,11 +357,17 @@
 
                 <li><u><b>L.-Y. Lo</b></u>, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, “Dynamic object tracking on autonomous uav system for surveillance applications,” <b>Sensors</b>, vol. 21, no. 23, p. 7888, 2021. Editor’s Choice Article. <a href="https://www.mdpi.com/1424-8220/21/23/7888">(link)</a> </li>
             </ol>
-            
             </br></br>    
-            <div style="width: 200px; height: 200px; overflow: hidden; justify-content: center; align-items: center;">
+            
+
+            <div style="width:200px; margin:auto;">
                 <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=T_Pnr7sBdmAWSlOU_QHc7uHWq1_mJOuRDEAvKVeANng"></script>
-            </div>            
+            </div>
+            
+            
+                
+                 
+                                    
         </div>
     </div>
 
