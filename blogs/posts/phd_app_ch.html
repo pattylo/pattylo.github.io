@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Li-Yu Lo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Optima", "Segoe UI", "Candara", sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Centered Container Styling */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            max-height: 90vh;
+            background-color: #f4f4f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            /* position: fixed;  */
+            /* top: 0; */
+            /* left: 0; */
+            /* height: 100vh; */
+            z-index: 10;
+        }
+
+        .sidebar img {
+            width: 150px; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #444;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+
+        /* Main Content Styling */
+        .content {
+            padding: 40px;
+            flex-grow: 1;
+            color: #333;
+            overflow-y: auto;
+        }
+
+        .content h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .content h3 {
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        .content p {
+            font-size: 1.0em;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        .content img {
+            width: 60%; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .icon-container {
+            display: flex;
+            gap: 20px; /* Adjust spacing between the icons */
+        }
+
+        .icon-container a {
+            text-decoration: none;
+        }
+
+        .icon-container i {
+            font-size: 2rem; /* Adjust icon size */
+        }
+
+        
+        ol {
+            text-align: justify;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        ol li::marker {
+            font-weight: bold;
+        }
+
+        ol li a {
+            word-break: break-all; /* Prevents long URLs from overflowing */
+        }
+
+        .icon-container {
+            display: flex;
+            text-align: justify;
+            gap: 10px;
+        }
+
+        .icon-container p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                margin-left: 0;
+                margin-top: 100px; /* Space for overhead bar */
+            }
+
+            .icon-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .icon-container img {
+                max-width: 100%; /* Ensure the image does not exceed its container */
+                width: 80%; 
+                height: auto;
+                object-fit: contain;
+                margin-bottom: 10px;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                flex-direction: row;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .sidebar img {
+                width: 100px; /* Adjust as needed */
+                height: auto; 
+                object-fit: contain;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+
+            .sidebar h2 {
+                font-size: 1.8em;
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+
+            .sidebar a {
+                margin: 1px;
+                padding: 4px 6px;
+                font-size: 0.9em;
+            }
+
+            .sidebar .icon-container i {
+                font-size: 10px; 
+            }
+
+            .sidebar .icon-container a {
+                font-size: 10px; 
+            }
+        } 
+
+    </style>
+</head>
+<body>
+
+    <!-- Centered Container -->
+    <div class="container">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="../asset/retarded_ducky_compressed.png" alt="Your Image">
+            <h2>Patty's Blog</h2>
+
+
+            <div class="icon-container">
+                <a href="../main.html" target="_blank">Back</a>
+            </div>
+            
+            <!-- https://github.com/pattylo/learning_jungle -->
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h1>28/Mar/2025 - PhD 申請分享 (admitted to Duke Fall 2025)</h1>
+            <h3>前言</h3>
+            <p>
+                有鑒於近年來PhD申請越來越卷（是真跡吧卷），申請資訊、材料要求錯綜復雜，小弟決定將自身經驗記錄下來，並希望能對各位有所幫助。不同於其他分享材料 -- 由於我的經歷可能和大多數台灣學生不一樣，這裡會從我大學本科開始講起，並且說一下我博轉碩、再申博的歷程。本文也會盡量抱持真實，我不會講太多冠冕堂皇的話，亦不會給你什麼心靈雞湯，我菜的地方就會跟你說菜、我牛逼的地方也會直接跟你說 -- 因為我覺得看他人分享，常常是一種借鏡，藉由他人實力去做落點分析。
+                </br></br>
+                喔對了，我也不在乎什麼政治正確或是什麼大陸/台灣用語，你很在乎的話直接ctrl+w/cmd+w。不過我本人很友善的，不會咬你，也喜愛助人:)，真有什麼需要的，很歡迎email我。
+                </br></br>
+                Patrick Lo @ Tianjin, 31 Mar 2025
+            </p>
+            </br></br>
+            
+            <h3>摘要</h3>
+            <p>此文將先簡述一下我</p>
+            </br></br>
+                            
+        </div>
+    </div>
+
+</body>
+</html>
