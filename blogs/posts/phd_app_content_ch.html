@@ -212,6 +212,10 @@
             }
         } 
 
+        [id] {
+            scroll-margin-top: 20vh; 
+        }
+
     </style>
 </head>
 <body>
@@ -221,8 +225,8 @@
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <!-- Sidebar -->
         <div class="sidebar">
-            <img src="../../asset/comon_rick.png" alt="Your Image">
-            <h2>Patty's Blog</h2>
+            <img src="../../asset/me_ai.jpg" alt="Your Image">
+            <h2>PhD申請分享</h2>
             
             <div class="icon-container">
                 <a href="./phd_app_ch.html">Back to Post</a>
@@ -245,7 +249,7 @@
                 <div class="icon-container">
                     <a href="#background" >I-A 個人背景</a>
                     </br>
-                    <a href="#phdOverall" >I-B PhD申請概述</a>
+                    <a href="#phdOverall" onclick="scrollToMiddle('phdOverall')">I-B PhD申請概述</a>
                  </br></br>
                 </div>
                 <div class="icon-container">
@@ -278,7 +282,7 @@
                     </br>
                     <a href="#proposal" >III-E On 研究計劃書</a>
                     </br>
-                    <a href="#english" >III-F On 英文要求</a>
+                    <a href="#english" >III-F On 英文要求/GRE</a>
                     </br>
                     <a href="#interview" >III-G On 面試</a>
                     </br></br>
@@ -295,13 +299,13 @@
             </br></br>
 
             <h2>I SETUP</h2>
-            </br></br>
+            </br>
             <h3 id="background">I-A 個人背景</h3>
             <p>首先，再次強調，這裡主打一個真實，並不是要炫耀或是耍自卑，而是我認為大家可以藉由我的背景去評估自己的落點，i.e., 如果我都可以，那你也可以；如果我這樣才可以，那你估計得加加油。</p></br>
-            
+
             <p>我是106學測（2017），71/75，上了台大土木、成大航太、港理工航空。當時我們挺流行留港留中的，最後就去了港理工，全獎（學費＋生活費全包、一年total 16萬港幣）。我們家是個典型的公務員家庭，可以上私校（再興），但是沒啥大錢，除非貪污。基本上出國的虛榮心得自己滿足，上了大學有八成靠學校給的。這個constraint也深深影響我後續的種種抉擇。</p></br>
 
-            <p>大學期間GPA 3.75/4.3（香港績點不是絕對的，拿ABC是看修課同儕能力），3個Dean's List（直翻就是院長獎，類似台灣書卷？），系排4/54。這個成績我也不知道如何評價 -- 就還行，沒到超屌，但可以在TSA被捧一下？我阿災。</p></br>
+            <p>大學期間GPA 3.75/4.3，1st Hons （話說香港績點不是絕對的，拿ABC是看修課同儕能力），3個Dean's List（直翻就是院長獎，類似台灣書卷？），系排4/54。這個成績我也不知道如何評價 -- 就還行，沒到超屌，但可以在TSA被捧一下？我阿災。</p></br>
 
             <p>科研部分，大二有去上海交大材料所實習兩個月（無成果）、大四畢業專題（FYP/Honour's Project）做四旋無人機視覺導航（一篇開源文章）。大學畢業後，覺得機器人有趣，在港科大旗下智能建造中心待了一年（一篇專利在審）。</p></br>
 
@@ -313,28 +317,64 @@
 
             <h3 id="phdOverall">I-B PhD申請概述</h3>
             <p>BB夠多了，要進入正題了。先說喔，我帶有強烈的主觀意識和個人經驗的在寫這些分享的，被我誤導的別來靠邀。但就像我說的，我人超好，我會盡量求證並附上好用的連結。</p>
+            </br>            
+
+            <p>先來一點流水帳。申請的兩年期間，我的offer/interview/attempt三圍為4/8/39。最後拿了RWTH Aachen和Waterloo的口頭offer，Manchester的Cradle獎學金offer，和Duke的official。Attempt我算了所有正式非正式申請、套辭和接觸。這近40次的嘗試中，可大致分為三階段（按時序） -- 24 fall admit、崗位制、25 fall admit。前兩輪基本上全部槓龜，再加上趕論文趕畢業，當時真是心力交瘁、心如死灰。倒是我當時幽默感到達巔峰，笑話段子怎麼講怎麼好笑 -- 人生遠看是喜劇近看還是喜劇的最佳寫照。</p></br>
+
+            <p>我倒是每一次的失敗都會做大檢討，給各位一點數據，我光履歷就改過44次、個人網站127次，這都只是算commit的次數而已。修了再修、雕了再雕。同時，我也意識到我知識儲備量不夠，不停的在MIT/Stanford/UMich/CMU （Shout out to those Profs!） Youtube帳號聽公開課/Seminar學習，並慢慢地知道有什麼新方向可以做，並在找老師的時候清楚的闡述。我的發表量也不夠，我也是拼命參加會議，然後盡量有一篇能看的文章見刊。最後，我是拿著<u>三個研究經歷、一篇IEEE Trans、兩篇IEEE會議</u>（等級離CCF那些有一段但是大家多少有聽過的會）去和清楚的研究動機去寫履歷的。</p>
+
+            </br>
+            <p style="text-align: center; font-style: italic; font-weight: bold;">申請博士其實就是需要展現你的過往2-3個研究經歷，</br>並有邏輯的去訴說你的研究故事和動機，</br>最後去感動說服老師你有經驗、你很清楚你要幹嘛。</p>
             </br>
 
-            <p>申請的兩年期間，我的offer/interview/attempt三圍為4/8/39。Attempt我算了所有正式非正式申請、套辭和接觸。這近40次的嘗試中，可大致分為三階段（按時序） -- 24 fall admit、崗位制、25 fall admit。前兩輪基本上全部槓龜，再加上趕論文趕畢業，當時真是心力交瘁、心如死灰。倒是我當時幽默感到達巔峰，笑話段子怎麼講怎麼好笑 -- 人生遠看是喜劇近看還是喜劇的最佳寫照。</p></br>
+            <p>這個戰績很普通，不過我認為放在這兩年異常競爭的申請季裡，其實還可以啦。再加上我沒有大組背景、沒有大佬強推、沒有美碩德碩瑞碩背書、沒有什麼硬關係、亦沒有代辦（我認為一個搞科研的還要靠代辦，那遇到難一點的問題也不用去搞了，再加上我覺得很多代辦產業基本上跟詐騙沒有什麼兩樣），真的是大部分都靠自己爬文、發郵件。所以最後有拿到offer時，有啦，我是有給我自己一點credit的。不過還是得說，最後我運氣也還行，剛好有人看上，所以，對，還是要保持謙卑並且感恩啦。同時，我想特別強調一下mindset -- 三輪的申請裡，挫折是真的挫折，是真的會一直懷疑自己的能力，但如果你真的很想要，那就死命去做，發現問題，然後面對問題，再解決問題（講這句話的已經被關了，我不是誰誰誰的粉絲，但套在這裡十分受用）。</p></br>
 
-            <p>我倒是每一次的失敗都會做大檢討，給各位一點數據，我光履歷就改過44次、個人網站127次，這都只是算commit的次數而已。修了再修、雕了再雕。同時，我也意識到我知識儲備量不夠，不停的在MIT/Stanford/UMich/CMU （Shout out to those Profs!） Youtube帳號聽公開課/Seminar學習，並慢慢地知道有什麼新方向可以做，並在找老師的時候清楚的闡述。我的發表量也不夠，我也是拼命參加會議，然後盡量有一篇能看的文章見刊。最後，我是拿著一篇IEEE Trans、兩篇IEEE會議（等級離CCF那些有一段但是大家多少有聽過的會）去寫履歷的。</p>
-
-            </br>
-            <p style="text-align: center; font-style: italic; font-weight: bold;">申請博士其實需要展現你的過往2-3個研究經歷，</br>並有邏輯的去訴說你的研究故事和動機，最後去感動說服老師你有經驗、你很清楚你要幹嘛。</p>
-            </br>
-
-            <p>這個戰績很普通，不過我認為放在這兩年異常競爭的申請季裡，其實還可以啦。再加上我沒有大組背景、沒有大佬強推、沒有美碩德碩瑞碩，沒有什麼硬關係，真的是大部分都靠自己爬文、發郵件。所以最後有拿到offer時，有啦，我是有給我自己一點credit的。不過還是得說，最後我運氣也還行，剛好有人看上，所以，對，感謝再感謝。</p></br>
-
-            <p>以下第二章我會就各國申請的狀況和個人經驗，逐步分享，我會先說概況、我申請了哪些、如何申請、申請過後會有啥、我為何失敗。成功的case我會特別放在第四章。第三章會講一下申請材料的準備，有些會細講，有些我沒花太多心思可能就帶過。最後會大致回顧一下，然後細講一下成果case的過程。我也會很自以為是的給各位水深火熱的同胞們。</p></br>
+            <p>以下<a href="#chap2" >第二章</a>我會就各國申請的狀況和個人經驗，逐步分享，我會先說概況、申請的一些cases，有些國家的會特別講一下我為何失敗；成功的case我會特別放在第四章。<a href="#chap3" >第三章</a>會講一下申請材料的準備，有些會細講，有些我沒花太多心思可能就帶過。最後<a href="#chap4" >第四章</a>會大致回顧一下，然後細講一下成功case的過程；我也會很自以為給一點建議，希望能幫到還在水深火熱的廣大同胞們。</p></br>
 
             <p style="text-align: center;">------------------------</p>
             </br></br>
 
-            <h2>II Confrontations - Application</h2>
-            </br></br>
+            <h2 id="chap2">II Confrontations - Application</h2>
+            </br>
+            <p>在開始前，先講一下，博士的申請主要分為兩種形式：委員會制和導師制，顧名思義，<u>委員會</u>會由一群老師和招生委員組成，對各個學生做評估，通過了才能進入池子給導師挑選；而導師制就是老師說的算，他OK你就可以進去了。</p></br>
+
+            <h3>II 目錄</h3>
+            <div class="icon-container">
+                </br>
+                <a href="#phdHK" >II-A PhD申請 -- 香港</a>
+                </br>
+                <a href="#phdUS" >II-B PhD申請 -- 美國</a>
+                </br>
+                <a href="#phdEU" >II-C PhD申請 -- 歐陸</a>
+            </div>
+            <div class="icon-container">
+                </br>
+                <a href="#phdCA" >II-D PhD申請 -- 加拿大</a>
+                </br>
+                <a href="#phdUK" >II-E PhD申請 -- 英國</a>
+                </br></br>
+            </div>
+
             <h3 id="phdHK">II-A PhD申請 -- 香港</h3>
-            <p></p>
-            </br></br>
+            <h4 id="phdHK-overall">概況</h4>
+            <p>香港博士申請可以說是當今世界上數一數二卷的了，跟美國有的比，其原因主要是因為有眾多大陸國防七子被西方制裁，他們很多985/211甚至C9等級的學生為尋求海外經歷只能到香港和新加坡了。千千萬萬不能小看內地985/21的學生，他們全部都是中國 &lt; 0.1%的學生，不是我要看不起台大，但可能真只有台大電機、台大醫的學生打得贏他們（信我，畢竟我也上的了台大）。 </p></br>
+
+            <p>在此之上，香港提供了世界級的獎學金package，有：1) <a href="https://fytgs.hkust.edu.hk/scholarships/hong-kong-phd-fellowship-scheme">港府獎學金 （HKPFS）</a>、2) 有些學校（港大、港理）有 <a href="https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme">校長獎學金（PFS）</a>、3) 有些有基本款（理大） <a href="https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/?sc_lang=en">研究生獎學金 （RPgS）</a>，競爭之激烈可想而知。就算沒有拿到這些package，老師funding也很多，價碼也至少都是19,000 HKD/per month，完全不用擔心吃不飽穿不暖。</p></br>
+
+            <p>申請制度方面，香港採用混合制，委員會＋導師制，看各校系。不過，基本上，只要是有package的（HKPFS, PFS），都有委員會，funding則是跟導師制。</p></br>
+            
+            <p>基本上，你的第一學歷（大學本科）十分重要，QS100、985/211、台清交成政，成績最好越高越好。發表也至少要一到兩篇JCR Q1一座，幾篇二座。總之，可量化的研究履歷越豐富，愈容易中。</p></br>
+
+            <h4 id="phdHK-cases">申請 Cases Study</h4>
+            <p><b>Me: </b></p>
+            <p style="padding-left: 1em;">首先，我因為本科畢業設計就在我這個實驗室了，我直接去找老師說我要讀書的。如果你沒有類似的connection，請，務必要去<a href="#coverletter">套詞</a>，因為不論你走package還是funding，都需要potential導師先同意。我自己挑戰過兩次HKPFS（2021 admit & 2022 admit）均失敗。我第二年的履歷上，有一篇Q1一座、一篇Q1二座，並搭配上我還行的本科成績。我們學校的HKPFS制度是透過各系所委員會先推舉，然後再到學校總委員會去評選。學校推薦出去的，再在和他校（港八）學生競爭。所以HKPFS是真跡吧難，有很多清北的怪物，基本上你假如實力跟我差不多，那哈哈再見。我自己是在學校總委員會就被刷掉了。</p></br>
+
+            <p style="padding-left: 1em;">我們學校也有一個很好玩的制度，在池子裡面的時候，假如沒有被推舉出學校，他們會從中挑選值得拿校獎的學生，直接給你，或是直接給你基本配套RPgS（我們俗稱3+1，有興趣私我，我再給你解釋）。我就是在池子被挑去校獎的。不過校獎的錢基本上和港府一樣，只是沒有那個頭銜。這個流程我認為就沒有那麼透明，不過大致邏輯是這樣。同時，『可量化』的成果，大家可以去小紅書爬，有完整的表格，已經有人洩漏了哈哈。</p></br>
+
+            <p><b>Mi Amigos: </b></p>
+            <p style="padding-left: 1em;">後面我有一些實驗室朋友不外乎都是走上述那套，進池子等著被挑，然後告訴你是啥package。也有一些就是去套詞導師問有沒有funding。其實後者舒服很多，只要跟老師來電了，就不用整天擔心這擔心那，後續走流程也都只是形式。</p></br>
+
+            <p style="padding-left: 1em;">我也有一些朋友去港大和港科。在我聽來都是這樣的模式，沒有什麼大區別。有一個big takeaway就是，<a href="#coverletter">套詞</a>！套到了，什麼都好說，沒有package還有一個funding等著你，這種感覺很讚的；但是如同我說的，香港真的很競爭，大家加油。</p></br>
 
             <h3 id="phdUS">II-B PhD申請 -- 美國</h3>
             <p></p>
@@ -353,7 +393,7 @@
             <p style="text-align: center;">------------------------</p>
             </br></br>
 
-            <h2>III Confrontations - Materials</h2>
+            <h2 id="chap3">III Confrontations - Materials</h2>
             </br></br>
             <h3 id="coverletter">III-A On 套詞信</h3>
             <p></p>
@@ -375,7 +415,7 @@
             <p></p>
             </br></br>
 
-            <h3 id="english">III-F On 英文要求</h3>
+            <h3 id="english">III-F On 英文要求/GRE</h3>
             <p></p>
             </br></br>
 
@@ -384,7 +424,7 @@
             <p style="text-align: center;">------------------------</p>
             </br></br>
             
-            <h2>IV Resolution</h2>
+            <h2 id="chap4">IV Resolution</h2>
             </br></br>
             <h3 id="offer">IV-A 上岸</h3>
             <p></p>
@@ -396,6 +436,15 @@
                             
         </div>
     </div>
-
+    <!-- <script>
+        function scrollToMiddle(id) {
+          const element = document.getElementById(id);
+          const offset = (window.innerHeight - element.offsetHeight) / 2;
+          window.scrollTo({
+            top: element.getBoundingClientRect().top + window.scrollY - offset,
+            behavior: 'smooth'
+          });
+        }
+    </script> -->
 </body>
 </html>
