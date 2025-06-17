@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Li-Yu Lo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Optima", "Segoe UI", "Candara", sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Centered Container Styling */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            max-height: 90vh;
+            background-color: #f4f4f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            /* position: fixed;  */
+            /* top: 0; */
+            /* left: 0; */
+            /* height: 100vh; */
+            z-index: 10;
+        }
+
+        .sidebar img {
+            width: 150px; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #444;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+
+        /* Main Content Styling */
+        .content {
+            padding: 40px;
+            flex-grow: 1;
+            color: #333;
+            overflow-y: auto;
+        }
+
+        .content h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .content h3 {
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        .content p {
+            font-size: 1.0em;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        .content img {
+            width: 60%; /* Adjust as needed */
+            height: auto; 
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .icon-container {
+            display: flex;
+            gap: 20px; /* Adjust spacing between the icons */
+        }
+
+        .icon-container a {
+            text-decoration: none;
+        }
+
+        .icon-container i {
+            font-size: 2rem; /* Adjust icon size */
+        }
+
+        
+        ol {
+            text-align: justify;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        ol li::marker {
+            font-weight: bold;
+        }
+
+        ol li a {
+            word-break: break-all; /* Prevents long URLs from overflowing */
+        }
+
+        .icon-container {
+            display: flex;
+            text-align: justify;
+            gap: 10px;
+        }
+
+        .icon-container p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                margin-left: 0;
+                margin-top: 100px; /* Space for overhead bar */
+            }
+
+            .icon-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .icon-container img {
+                max-width: 100%; /* Ensure the image does not exceed its container */
+                width: 80%; 
+                height: auto;
+                object-fit: contain;
+                margin-bottom: 10px;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                flex-direction: row;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .sidebar img {
+                width: 100px; /* Adjust as needed */
+                height: auto; 
+                object-fit: contain;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+
+            .sidebar h2 {
+                font-size: 1.8em;
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+
+            .sidebar a {
+                margin: 1px;
+                padding: 4px 6px;
+                font-size: 0.9em;
+            }
+
+            .sidebar .icon-container i {
+                font-size: 10px; 
+            }
+
+            .sidebar .icon-container a {
+                font-size: 10px; 
+            }
+        } 
+
+    </style>
+</head>
+<body>
+
+    <!-- Centered Container -->
+    <div class="container">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="../../asset/comon_rick.png" alt="Your Image">
+            <h2>PhD申請分享</h2>
+
+
+            <div class="icon-container">
+                <a href="../main.html">Back</a>
+            </div>
+            
+            <!-- https://github.com/pattylo/learning_jungle -->
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h1>PhD 申請分享 (admitted to Duke Fall 2025)</h1>
+            <h3>前言</h3>
+            <p>
+                有鑒於近年來PhD申請越來越卷（是真跡吧卷），申請資訊、材料要求錯綜復雜，小弟決定將自身經驗記錄下來，希望能對各位有所幫助（畢竟我也是靠各位前輩的資料去申請的）。
+                </br></br>
+                不同於其他分享材料 -- 1. 我會盡量就我和旁人經驗，針對近年申請狀況給出宏觀的分析，2. 相較許多大佬，我科研背景出生相對貧寒，所以希望於此給類似經歷的人們一點baseline，也記錄一下了心路歷程，3. 由於我大學本科不在台灣（有興趣洽<a href="../null.html">此</a>），而且我是博轉碩、再申博，給出的一些perspective可能也不一樣。整篇文章・・・恩，有點囉唆，很囉唆，大家可以挑自己想看的看。
+                </br></br>
+                由於我他馬申過很多地方，會傾向把各個地方模塊化講一下。同時，申請材料也會拿出來另外說一下。喔對了，本文沒啥客套話，有時候可能嘴巴有點髒、有點賤，慎入。不過我認為有了這分真實 -- 你可以藉由我的背景去做落點分析。
+                </br></br>
+                我也不在乎什麼政治正確或是什麼大陸/台灣用語，我長時間不在國內，也真的很久沒用中文寫東西，如有任何用語/語法問題，麻煩跟我反饋，我會用我的雙眼 -- 屁眼和馬眼好好審視一番。不過相比於當今網路上那些『puritanical authoritarian bully』（Gervais, 2023），我本人很友善的，不會咬你，也喜愛助人，真有什麼需要的，很歡迎email/linkedin我 :)
+                </br></br>
+                Patrick Lo @ Tianjin, 31 Mar 2025
+            </p>
+            </br></br>
+            
+            <h3><a href="./phd_app_content_ch.html#content">目錄</a></h3>
+            <p>
+                <div class="icon-container">
+                    <a href="./phd_app_content_ch.html#direction" >I-A TL;DR</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#background" >I-B 個人背景</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdOverall" >I-C PhD申請概述</a>
+                 </br></br>
+                </div>
+                <div class="icon-container">
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdHK" >II-A PhD申請 -- 香港</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdUS" >II-B PhD申請 -- 美國</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdEU" >II-C PhD申請 -- 歐陸</a>
+                </div>
+                <div class="icon-container">
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdCA" >II-D PhD申請 -- 加拿大</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#phdUK" >II-E PhD申請 -- 英國</a>
+                    </br></br>
+                </div>
+                <div class="icon-container">
+                    </br>
+                    <a href="./phd_app_content_ch.html#coverletter" >III-A On 套詞信</a>    
+                    </br>
+                    <a href="./phd_app_content_ch.html#cv" >III-B On CV履歷</a>    
+                    </br>
+                    <a href="./phd_app_content_ch.html#sop" >III-C On SoP/PS寫法</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#lor" >III-D On 推薦信</a>
+                    </br>
+                </div>
+                <div class="icon-container">
+                    </br>
+                    <a href="./phd_app_content_ch.html#proposal" >III-E On 研究計劃書</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#english" >III-F On 英文要求/GRE</a>
+                    </br>
+                    <a href="./phd_app_content_ch.html#interview" >III-G On 面試</a>
+                    </br></br>
+                </div>
+                <div class="icon-container">
+                    <a href="./phd_app_content_ch.html#offer" >IV-A 上岸</a>    
+                    </br>
+                    <a href="./phd_app_content_ch.html#conclusion">IV-B 後記</a>
+                    </br>
+                </div>
+            </p>
+            </br></br>
+                            
+        </div>
+    </div>
+
+</body>
+</html>
