@@ -63,6 +63,7 @@
             color: #333;
             margin-bottom: 10px;
             margin-right: 10px;
+            text-align: center;
         }
 
         .sidebar a {
@@ -141,6 +142,21 @@
 
         ol li a {
             word-break: break-all; /* Prevents long URLs from overflowing */
+        }
+
+        /* General link styling for lighter blue (only in content area) */
+        .content a {
+            color: #4c93e3; /* Lighter blue color */
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s ease;
+        }
+
+        .content a:visited {
+            color: #4c93e3; /* Even lighter for visited links */
+        }
+
+        .content a:hover {
+            color: #7bb3f0; /* Even lighter blue on hover */
         }
 
         .icon-container {
@@ -227,7 +243,7 @@
         <!-- Sidebar -->
         <div class="sidebar">
             <img src="asset/me.png" alt="Your Image">
-            <h2>Patrick Li-Yu Lo </br> 羅立宇 </h2>
+            <h2>Patrick Li-Yu Lo </br> 羅立宇 </br> <span style="font-size:0.6em; opacity:0.75;">TW - HK - US</span></h2>
             <div class="icon-container">
                 <!-- GitHub Icon -->
                 <a href="https://github.com/pattylo" target="_blank">
@@ -270,21 +286,28 @@
         <div class="content">
             <h1>About Me</h1>
             <p>
-                I am an PhD Student in the <a href="http://generalroboticslab.com/" target="_blank">General Robotics Lab</a> at Duke MEMS Department, advised by Dr. <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>. My research focuses on learning-based methods for mobile robots, emphasizing on system adaptability and perception robustness for field robots.
-                </br></br>   
-                Before that, I completed both my MPhil and BEng (1st Hons) at The Hong Kong Polytechnic University, mentored by
-                <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/ir-prof-wen-chih-yung/" target="_blank">Prof. Chih-Yung Wen</a> and 
-                <a href="https://www.newcastle.edu.au/profile/boyang-li" target="_blank">Dr. Boyang Li</a>. 
-                My MPhil research was supported by the 
-                <a href="https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/pppfs/?sc_lang=en" target="_blank">Presidential Fellowship</a>, 
-                while my undergraduate studies were fully sponsored by the 
-                <a href="https://www.polyu.edu.hk/sao/student-resources-and-support-section/scholarships/scholarship-types/?sc_lang=en" target="_blank">PolyU APEC Entry Scholarship</a>. 
-                In between, I was affiliated with the 
-                <a href="https://www.hkcrc.hk/" target="_blank">Hong Kong Center for Construction Robotics (HKCRC)</a>, 
-                a research institute headed by 
-                <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li" target="_blank">Prof. Zexiang Li</a>.
-                </br></br>    
-                Ping me if you’d like to chat about robotics — or just have a conversation! I won't bite :)
+            I am a PhD student @ 
+            <a href="http://generalroboticslab.com/" target="_blank">General Robotics Lab</a> 
+            @ Duke MEMS, advised by Dr. 
+            <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>, where 
+            I work on <strong>field robotics</strong> with <strong>multi-agent systems</strong>, aiming to enable robust collective intelligence in uncertain environments.
+            </p></br> 
+
+            <p>
+            I hold an MPhil (<a href="https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/pppfs/?sc_lang=en" target="_blank">Presidential Fellow</a>) and BEng (1st Hons & <a href="https://www.polyu.edu.hk/sao/student-resources-and-support-section/scholarships/scholarship-types/?sc_lang=en" target="_blank">APEC Entry Scholarship Recipient</a>) from The Hong Kong Polytechnic University. 
+            </p></br> 
+
+            <p>I was a member of <a href="https://gh034.github.io/" target="_blank">AIRO Lab</a> mentored by
+            <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/ir-prof-wen-chih-yung/" target="_blank">Prof. Chih-Yung Wen</a> 
+            and 
+            <a href="https://www.newcastle.edu.au/profile/boyang-li" target="_blank">Dr. Boyang Li</a>.
+            I was also with <a href="https://www.hkcrc.hk/" target="_blank">HKCRC</a>, a research institute led by 
+            <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li" target="_blank">Prof. Zexiang Li</a>.</p>
+            
+            </br>             
+
+            <p>
+            Feel free to ping me; my RTT is usually low :)
             </p>
             
                 </br></br>    
@@ -297,8 +320,16 @@
                     Ongoing project focused on developing a Koopman operator-based controller for underactuated robots (e.g., quadrotors and quadrupeds) through hyperparameter optimization using reinforcement learning (RL). The algorithms and methods (subject to finalization) include Extended Dynamic Mode Decomposition (EDMD) for Koopman observables, regression for the Koopman operator, and Proximal Policy Optimization (PPO) for adaptive hyperparameter inference in the controller.
                 </div>                
                 </br></br>    -->
+
+                <h3>Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite [<a href="https://github.com/HKPolyU-UAV/ALAN" target="_blank">Code</a>] [<a href="./pdfs/tim.pdf" target="_blank">PDF</a>]</h3> 
+                <div class="icon-container">
+                    <!-- GitHub Icon -->
+                    <img src="./asset/alan.gif"/>
+                    Conducted research on an autonomous landing system for UAVs without onboard vision sensors. Algorithms and methods utilized include SE(3) relative estimation, the iterated extended Kalman filter, quadrotor dynamic modeling, minimum-jerk trajectory optimization, Bézier curves, and a non-inertial PID-feedforward outer-loop controller.
+                </div>                       
+                </br></br>  
                 
-                <h3>A Bootcamp for Legged Robotics via Biped and Quadruped Simulation (<a href="https://github.com/Dynamics-Learning-Workshop/Legged-Robots-Bootcamp" target="_blank">Code</a>)</h3>
+                <h3>A Bootcamp for Legged Robotics via Biped and Quadruped Simulation [<a href="https://github.com/Dynamics-Learning-Workshop/Legged-Robots-Bootcamp" target="_blank">Code</a>]</h3>
                 <div class="icon-container">
                     <!-- GitHub Icon -->
                     <img src="./asset/biped.gif" />
@@ -306,15 +337,7 @@
                 </div>                             
                 </br></br>   
 
-                <h3>Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite (<a href="https://github.com/HKPolyU-UAV/ALAN" target="_blank">Code</a> <a href="./pdfs/tim.pdf" target="_blank">PDF</a>)</h3> 
-                <div class="icon-container">
-                    <!-- GitHub Icon -->
-                    <img src="./asset/alan.gif"/>
-                    Conducted research on an autonomous landing system for UAVs without onboard vision sensors. Algorithms and methods utilized include SE(3) relative estimation, the iterated extended Kalman filter, quadrotor dynamic modeling, minimum-jerk trajectory optimization, Bézier curves, and a non-inertial PID-feedforward outer-loop controller.
-                </div>                       
-                </br></br>    
-
-                <h3>Fixed-Time Adaptive Consensus Control for Multi-Quadrotor Subject to External Disturbances Via Deep Reinforcement Learning (<a href="./pdfs/swarm_rl.pdf" target="_blank">PDF</a>)</h3> 
+                <h3>Fixed-Time Adaptive Consensus Control for Multi-Quadrotor Subject to External Disturbances Via Deep Reinforcement Learning [<a href="./pdfs/swarm_rl.pdf" target="_blank">PDF</a>]</h3> 
                 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
@@ -323,7 +346,7 @@
                 </div>                        
                 </br></br>    
 
-                <h3>An Adaptive Model Predictive Control for Unmanned Underwater Vehicles subject to External Disturbances and Measurement Noise (<a href="https://github.com/HKPolyU-UAV/bluerov2/tree/eskf_obs2" target="_blank">Code</a> <a href="./pdfs/uuv.pdf" target="_blank">PDF</a>)</h3> 
+                <h3>An Adaptive Model Predictive Control for Unmanned Underwater Vehicles subject to External Disturbances and Measurement Noise [<a href="https://github.com/HKPolyU-UAV/bluerov2/tree/eskf_obs2" target="_blank">Code</a>] [<a href="./pdfs/uuv.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
                     <img src="./asset/uuv.gif" />
@@ -331,7 +354,7 @@
                 </div>                
                 </br></br>    
                 
-                <h3>Toy Convex Solver (<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/qpsolver.m" target="_blank">Code</a> <a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/project_report.pdf" target="_blank">PDF</a>)</h3> 
+                <h3>Toy Convex Solver [<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/qpsolver.m" target="_blank">Code</a>] [<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/project_report.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
                     <img src="./asset/convex.jpg" />
@@ -339,7 +362,7 @@
                 </div>                
                 </br></br>   
 
-                <h3>Autonomous Dynamic Object Tracking/Following UAV (<a href="https://github.com/HKPolyU-UAV/AUTO" target="_blank">Code</a> <a href="./pdfs/auto.pdf" target="_blank">PDF</a>)</h3> 
+                <h3>Autonomous Dynamic Object Tracking/Following UAV [<a href="https://github.com/HKPolyU-UAV/AUTO" target="_blank">Code</a>] [<a href="./pdfs/auto.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
                     <img src="./asset/auto.gif"/>
@@ -347,14 +370,14 @@
                 </div>                 
                 </br></br>  
 
-                <h3>An Autonomous UGV with LOAM (<a href="https://github.com/HKPolyU-UAV/ALAN_SIM" target="_blank">Code-SITL</a>  <a href="https://github.com/HKPolyU-UAV/scout_ros" target="_blank">Code-Firmware</a>)</h3> 
+                <h3>An Autonomous UGV with LOAM [<a href="https://github.com/HKPolyU-UAV/ALAN_SIM" target="_blank">Code-SITL</a>] [<a href="https://github.com/HKPolyU-UAV/scout_ros" target="_blank">Code-Firmware</a>]</h3> 
                 <div class="icon-container">
                     <img src="./asset/ugv.gif"/>
                     This implementation showcases an autonomous UGV that employs an open-source LOAM algorithm and a custom-developed nonholonomic car controller utilizing PID-feedforward control. The system was demonstrated on the AgileX Mini platform. Additionally, the corresponding Gazebo SITL simulation environment, including the controller, is maintained and open-sourced.
                 </div>                 
                 </br></br>  
                 
-                <h3>Bug Planner Implementation for Nonholonomic Planner Robots (<a href="https://github.com/pattylo/Bug-Algo" target="_blank">Code</a>)</h3> 
+                <h3>Bug Planner Implementation for Nonholonomic Planner Robots [<a href="https://github.com/pattylo/Bug-Algo" target="_blank">Code</a>]</h3> 
                 <div class="icon-container">
                     <!-- GitHub Icon -->
                     <img src="./asset/bug.gif"/>
@@ -365,17 +388,17 @@
             </p>
             <h1 id="publication">Selected Publication</h1>
             <ol>
-                <li><u><b>L.-Y. Lo</b></u>, B. Li, C.-Y. Wen, and C.-W. Chang, “Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite,” <b>IEEE Transactions on Instrumentation and Measurement (TIM)</b>, vol. 73, 2024. <a href="https://ieeexplore.ieee.org/document/10700939" target="_blank">(link)</a></li>
+                <li><u><b>L.-Y. Lo</b></u>, B. Li, C.-Y. Wen, and C.-W. Chang, “Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite,” <b>IEEE Transactions on Instrumentation and Measurement (TIM)</b>, vol. 73, 2024. [<a href="https://ieeexplore.ieee.org/document/10700939" target="_blank">link</a>]</li>
 
-                <li><u><b>L.-Y. Lo</b></u>, Y. Hu, B. Li, C.-Y. Wen, and Y. Yang, “An adaptive model predictive control for unmanned under-water vehicles subject to external disturbances and measurement noise,” in 2024 14th <b>Asian Control Conference (ASCC)</b>. IEEE, 2024, pp. 01–07. <a href="https://ieeexplore.ieee.org/abstract/document/10665690" target="_blank">(link)</a></li>
+                <li><u><b>L.-Y. Lo</b></u>, Y. Hu, B. Li, C.-Y. Wen, and Y. Yang, “An adaptive model predictive control for unmanned under-water vehicles subject to external disturbances and measurement noise,” in 2024 14th <b>Asian Control Conference (ASCC)</b>. IEEE, 2024, pp. 01–07. [<a href="https://ieeexplore.ieee.org/abstract/document/10665690" target="_blank">link</a>]</li>
 
-                <li><u><b>L.-Y. Lo</b></u>, B. Li, C.-Y. Wen, and C.-W. Chang, “Landing a quadrotor on a ground vehicle without exteroceptive airborne sensors: A non-robocentric framework and implementation,” in 2023 <b>IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)</b>. IEEE, 2023, pp. 6080–6087. <a href="https://ieeexplore.ieee.org/abstract/document/10422652" target="_blank">(link)</a></li>
+                <li><u><b>L.-Y. Lo</b></u>, B. Li, C.-Y. Wen, and C.-W. Chang, “Landing a quadrotor on a ground vehicle without exteroceptive airborne sensors: A non-robocentric framework and implementation,” in 2023 <b>IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)</b>. IEEE, 2023, pp. 6080–6087. [<a href="https://ieeexplore.ieee.org/abstract/document/10422652" target="_blank">link</a>]</li>
 
-                <li><u><b>L.-Y. Lo</b></u>, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, “Dynamic object tracking on autonomous uav system for surveillance applications,” <b>Sensors</b>, vol. 21, no. 23, p. 7888, 2021. Editor’s Choice Article. <a href="https://www.mdpi.com/1424-8220/21/23/7888" target="_blank">(link)</a> </li>
+                <li><u><b>L.-Y. Lo</b></u>, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, “Dynamic object tracking on autonomous uav system for surveillance applications,” <b>Sensors</b>, vol. 21, no. 23, p. 7888, 2021. Editor’s Choice Article. [<a href="https://www.mdpi.com/1424-8220/21/23/7888" target="_blank">link</a>]</li>
 
-                <li>Y. Yang, K. Liu, <u><b>L.-Y. Lo</b></u>, T. Huang, Y. Fu, and C.-Y. Wen, “Fixed-time adaptive consensus control for multi-quadrotor subject to external disturbances via deep reinforcement learning,” <b>Aerospace Science and Technology</b>, p. 111133, 2025. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1270963825011964" target="_blank">(link)</a></li>
+                <li>Y. Yang, K. Liu, <u><b>L.-Y. Lo</b></u>, T. Huang, Y. Fu, and C.-Y. Wen, “Fixed-time adaptive consensus control for multi-quadrotor subject to external disturbances via deep reinforcement learning,” <b>Aerospace Science and Technology (AST)</b>, p. 111133, 2025. [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1270963825011964" target="_blank">link</a>]</li>
 
-                <li>W. Yang, Z. Tan, Y. Xue, <u><b>L.-Y. Lo</b></u>, K. Liu, and C.-Y. Wen. “Hierarchical 3D scene graph based metric semantic slam for object mapping and counting,” <b>IEEE Internet of Things Journal</b>, 2025. <a href="https://ieeexplore.ieee.org/abstract/document/11130485" target="_blank">(link)</a></li>
+                <li>W. Yang, Z. Tan, Y. Xue, <u><b>L.-Y. Lo</b></u>, K. Liu, and C.-Y. Wen. “Hierarchical 3D scene graph based metric semantic slam for object mapping and counting,” <b>IEEE Internet of Things Journal</b>, 2025. [<a href="https://ieeexplore.ieee.org/abstract/document/11130485" target="_blank">link</a>]</li>
             </ol>
             </br></br>    
 
