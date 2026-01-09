@@ -102,7 +102,7 @@
         .content p {
             font-size: 1.0em;
             color: #555;
-            line-height: 1.6;
+            line-height: 1.2;
             max-width: 800px;
             text-align: justify;
         }
@@ -163,11 +163,13 @@
             display: flex;
             text-align: justify;
             gap: 10px;
+            line-height: 1.0;
         }
 
         .icon-container p {
             margin: 0;
             text-align: justify;
+            line-height: 1.0;
         }
 
         @media screen and (max-width: 768px) {
@@ -288,30 +290,33 @@
             <p>
             I am a PhD student @ 
             <a href="http://generalroboticslab.com/" target="_blank">General Robotics Lab</a> 
-            @ Duke MEMS, advised by Dr. 
-            <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>, where 
-            I work on <strong>field robotics</strong> with <strong>multi-agent systems</strong>, aiming to enable robust collective intelligence in uncertain environments.
+            - Duke MEMS, advised by Dr. 
+            <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>, where I am currently working on 
+            <strong>field robotics</strong> with <strong>multi-agent systems</strong>, aiming to enable robust collective intelligence in uncertain environments.
             </p></br> 
 
             <p>
-            I hold an MPhil (<a href="https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/pppfs/?sc_lang=en" target="_blank">Presidential Research Fellow</a>) and BEng (1st Hons & <a href="https://www.polyu.edu.hk/sao/student-resources-and-support-section/scholarships/scholarship-types/?sc_lang=en" target="_blank">APEC Entry Scholarship Recipient</a>) from The Hong Kong Polytechnic University. 
-            </p></br> 
+            I hold an MPhil and a BEng (1st Hons) in Aeronautical & Aviation Engineering
+            from The Hong Kong Polytechnic University. My research/studies were fully funded via <a href="https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/pppfs/?sc_lang=en" target="_blank">Presidential Research Fellowship</a> & <a href="https://www.polyu.edu.hk/sao/student-resources-and-support-section/scholarships/scholarship-types/?sc_lang=en" target="_blank">APEC Scholarship</a>. In between, I also did an academic exchange in Aerospace Engineering at The University of Queensland.
+            </p></br>
 
-            <p>I was a member of <a href="https://gh034.github.io/" target="_blank">AIRO Lab</a> mentored by
+            <p>
+            Previously, I was a member @ <a href="https://gh034.github.io/" target="_blank">AIRO Lab</a> mentored by
             <a href="https://www.polyu.edu.hk/en/aae/people/academic-staff/ir-prof-wen-chih-yung/" target="_blank">Prof. Chih-Yung Wen</a> 
             and 
-            <a href="https://www.newcastle.edu.au/profile/boyang-li" target="_blank">Dr. Boyang Li</a>.
-            I was also with <a href="https://www.hkcrc.hk/" target="_blank">HKCRC</a>, a research institute led by 
-            <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li" target="_blank">Prof. Zexiang Li</a>.</p>
-            
-            </br>             
+            <a href="https://www.newcastle.edu.au/profile/boyang-li" target="_blank">Dr. Boyang Li</a>. 
+            I also worked as an RA @ <a href="https://www.hkcrc.hk/" target="_blank">HKCRC</a>, a research institute led by 
+            <a href="https://seng.hkust.edu.hk/about/people/faculty/zexiang-li" target="_blank">Prof. Zexiang Li</a>.
+            </p></br>
 
             <p>
-            Feel free to ping me; my RTT is usually low :)
+            <!-- Up until now, I have been mainly working with quadcopter UAVs, UGVs, UUVs, & multi-agent systems (homogeneous/heterogeneous).  -->
+            Feel free to ping me on discussions/collaborations; my RTT is usually low :)
             </p>
+            <!-- <hr style="border: none; border-top: 2px solid #ddd; margin: 30px auto; width: 60%;"> -->
+            </br></br>
+        
             
-                </br></br>    
-
             <h1 id="project">Project Highlights</h1>
             <p>
                 <!-- <h3>- Improving Adaptability of Koopman Operators for Underactuated Robots</h3>
@@ -327,7 +332,7 @@
                     <img src="./asset/alan.gif"/>
                     Conducted research on an autonomous landing system for UAVs without onboard vision sensors. Algorithms and methods utilized include SE(3) relative estimation, the iterated extended Kalman filter, quadrotor dynamic modeling, minimum-jerk trajectory optimization, Bézier curves, and a non-inertial PID-feedforward outer-loop controller.
                 </div>                       
-                </br></br>  
+                </br>  
                 
                 <h3>A Bootcamp for Legged Robotics via Biped and Quadruped Simulation [<a href="https://github.com/Dynamics-Learning-Workshop/Legged-Robots-Bootcamp" target="_blank">Code</a>]</h3>
                 <div class="icon-container">
@@ -335,7 +340,7 @@
                     <img src="./asset/biped.gif" />
                     Self-implemented biped simulator with impedance control and a gait controller for a quadruped using Gazebo ROS. Algorithms and methods employed include Euler-Lagrange modeling, the RK Dormand–Prince method, fixed-point searching on Poincaré maps, forward and inverse kinematics, trajectory optimization with polynomials, feedback linearization, quadratic programming, and cycloid trajectories.
                 </div>                             
-                </br></br>   
+                </br> 
 
                 <h3>Fixed-Time Adaptive Consensus Control for Multi-Quadrotor Subject to External Disturbances Via Deep Reinforcement Learning [<a href="./pdfs/swarm_rl.pdf" target="_blank">PDF</a>]</h3> 
                 
@@ -344,7 +349,7 @@
                     <img src="./asset/swarm.gif" />
                     Contributed to a research project on adaptive control for formation control of UAV swarms. Algorithms and methods employed include sliding-mode control on graph topology, nonlinear disturbance observers, reinforcement learning (RL) for hyperparameter tuning, quadrotor dynamic modeling, Lyapunov stability analysis, and physical experiments with UAV swarms involving communication.
                 </div>                        
-                </br></br>    
+                </br> 
 
                 <h3>An Adaptive Model Predictive Control for Unmanned Underwater Vehicles subject to External Disturbances and Measurement Noise [<a href="https://github.com/HKPolyU-UAV/bluerov2/tree/eskf_obs2" target="_blank">Code</a>] [<a href="./pdfs/uuv.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
@@ -352,7 +357,7 @@
                     <img src="./asset/uuv.gif" />
                     Developed an adaptive model predictive controller (MPC) for an unmanned underwater vehicle (UUV) using an error-state extended state observer. Algorithms and methods employed include lumped disturbance observation, error-state space tracking and estimation, Lyapunov stability analysis, and nonlinear MPC.
                 </div>                
-                </br></br>    
+                </br>  
                 
                 <h3>Toy Convex Solver [<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/qpsolver.m" target="_blank">Code</a>] [<a href="https://github.com/pattylo/ELEC5470_Convex_Optimization/blob/main/project/project_report.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
@@ -360,7 +365,7 @@
                     <img src="./asset/convex.jpg" />
                     Self-implemented a convex solver for equality-constrained minimum-snap trajectory optimization. Algorithms and methods employed include the infeasible start Newton's method and convergence analysis.
                 </div>                
-                </br></br>   
+                </br>  
 
                 <h3>Autonomous Dynamic Object Tracking/Following UAV [<a href="https://github.com/HKPolyU-UAV/AUTO" target="_blank">Code</a>] [<a href="./pdfs/auto.pdf" target="_blank">PDF</a>]</h3> 
                 <div class="icon-container">
@@ -368,14 +373,14 @@
                     <img src="./asset/auto.gif"/>
                     My honours project during my Bachelor's studies, where I designed a UAV capable of tracking and following dynamic objects. Algorithms and methods employed include DNN (YOLO) implementation and training, linear Kalman filter, and visual servoing with PID.
                 </div>                 
-                </br></br>  
+                </br>
 
                 <h3>An Autonomous UGV with LOAM [<a href="https://github.com/HKPolyU-UAV/ALAN_SIM" target="_blank">Code-SITL</a>] [<a href="https://github.com/HKPolyU-UAV/scout_ros" target="_blank">Code-Firmware</a>]</h3> 
                 <div class="icon-container">
                     <img src="./asset/ugv.gif"/>
                     This implementation showcases an autonomous UGV that employs an open-source LOAM algorithm and a custom-developed nonholonomic car controller utilizing PID-feedforward control. The system was demonstrated on the AgileX Mini platform. Additionally, the corresponding Gazebo SITL simulation environment, including the controller, is maintained and open-sourced.
                 </div>                 
-                </br></br>  
+                </br>
                 
                 <h3>Bug Planner Implementation for Nonholonomic Planner Robots [<a href="https://github.com/pattylo/Bug-Algo" target="_blank">Code</a>]</h3> 
                 <div class="icon-container">
@@ -383,9 +388,12 @@
                     <img src="./asset/bug.gif"/>
                     This is an implementation of a nonholonomic path planner for robots during my undergraduate studies. Algorithms and methods employed include 2D lidar scan data processing, 2D wheel robot dynamic modeling, the Bug algorithm for path planning, and 2D wheel robot PID control.
                 </div>                 
-                </br></br>  
+                </br>
 
             </p>
+            
+            
+            </br></br>
             <h1 id="publication">Selected Publication</h1>
             <ol>
                 <li><u><b>L.-Y. Lo</b></u>, B. Li, C.-Y. Wen, and C.-W. Chang, “Experimental Non-Robocentric Dynamic Landing of Quadrotor UAVs with On-Ground Sensor Suite,” <b>IEEE Transactions on Instrumentation and Measurement (TIM)</b>, vol. 73, 2024. [<a href="https://ieeexplore.ieee.org/document/10700939" target="_blank">link</a>]</li>
@@ -398,7 +406,7 @@
 
                 <li>Y. Yang, K. Liu, <u><b>L.-Y. Lo</b></u>, T. Huang, Y. Fu, and C.-Y. Wen, “Fixed-time adaptive consensus control for multi-quadrotor subject to external disturbances via deep reinforcement learning,” <b>Aerospace Science and Technology (AST)</b>, p. 111133, 2025. [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1270963825011964" target="_blank">link</a>]</li>
 
-                <li>W. Yang, Z. Tan, Y. Xue, <u><b>L.-Y. Lo</b></u>, K. Liu, and C.-Y. Wen. “Hierarchical 3D scene graph based metric semantic slam for object mapping and counting,” <b>IEEE Internet of Things Journal</b>, 2025. [<a href="https://ieeexplore.ieee.org/abstract/document/11130485" target="_blank">link</a>]</li>
+                <li>W. Yang, Z. Tan, <u><b>L.-Y. Lo</b></u>, K. Liu, and C.-Y. Wen. “Hierarchical 3D scene graph based metric semantic slam for object mapping and counting,” <b>IEEE Internet of Things Journal</b>, 2025. [<a href="https://ieeexplore.ieee.org/abstract/document/11130485" target="_blank">link</a>]</li>
             </ol>
             </br></br>    
 
