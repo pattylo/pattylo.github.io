@@ -1,0 +1,3 @@
+[submodule "cv2"]
+	path = cv2
+	url = https://github.com/pattylo/cv2.git
