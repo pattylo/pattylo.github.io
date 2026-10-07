@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1791384969 "/Users/patricklo/src/pattylo.github.io/pdfs/cv/cv.tex" "cv.pdf" "cv" 1791384969
-  "/Users/patricklo/src/pattylo.github.io/pdfs/cv/cv.tex" 1791383942 23544 a94aacde0349d5be538f840ed575fb62 ""
+["pdflatex"] 1791385319 "/Users/patricklo/src/pattylo.github.io/pdfs/cv/cv.tex" "cv.pdf" "cv" 1791385320
+  "/Users/patricklo/src/pattylo.github.io/pdfs/cv/cv.tex" 1791385319 23472 3b44015bd18d10f16ce0a26d5761188e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -86,8 +86,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664385961 2826436 c0e00433cb8449ffee47ad124cf408b8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1756688048 32 3985256e7290058c681f74d7a3565a19 ""
-  "cv.tex" 1791383942 23544 a94aacde0349d5be538f840ed575fb62 ""
+  "cv.aux" 1791385214 32 3985256e7290058c681f74d7a3565a19 ""
+  "cv.tex" 1791385319 23472 3b44015bd18d10f16ce0a26d5761188e ""
   "res.cls" 1730277508 26972 8c9a3d2ab1d124f38613be75ac2ada11 ""
   (generated)
   "cv.log"
